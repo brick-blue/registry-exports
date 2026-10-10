@@ -1,0 +1,13 @@
+The measurements and their assembly in this repository and its releases (availability, uptime,
+latency, access class, counts, timestamps, and x402 quote terms as observed) are licensed under
+the Creative Commons Attribution 4.0 International licence:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: «brick.blue registry», with a link to https://brick.blue
+
+Names, descriptions and tool texts included in the files were written by the operators of the
+services they describe and remain theirs.
+
+verify.py is MIT-licensed: Copyright (c) 2026 brick.blue. Permission is hereby granted, free of
+charge, to any person obtaining a copy of this software, to deal in it without restriction,
+subject to including this notice. The software is provided "as is", without warranty of any kind.
