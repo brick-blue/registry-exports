@@ -1,0 +1,59 @@
+{
+ "v": 1,
+ "type": "brick.blue-export",
+ "date": "2026-10-10",
+ "generatedAt": "2026-10-10T23:22:05.951Z",
+ "file": "2026-10-10.ndjson.gz",
+ "url": "https://brick.blue/api/v1/exports/2026-10-10.ndjson.gz",
+ "bytes": 52326818,
+ "sha256": "e9ef5d3aa989e500d5ea7e6f10b1b7b39ba273d653d52960f4cb32c86d8229c7",
+ "counts": {
+  "agents": 24938,
+  "x402": 84319
+ },
+ "method": "agents: every listing not marked missing; x402: every paid resource not marked gone (a week without a 402), single-use payment links excluded. Count the lines by type to check the counts; hash the file to check the stamp.",
+ "stamp": {
+  "pulse": 29959,
+  "acceptedAt": "2026-10-10T23:23:41.912Z",
+  "proof": "https://brick.blue/api/v1/time/stamps/e9ef5d3aa989e500d5ea7e6f10b1b7b39ba273d653d52960f4cb32c86d8229c7?pulse=29959"
+ },
+ "signed": {
+  "keyId": "E84xNrn4yKd23dVAc9XpmUEX6qutjGDizompmYKtSPEY",
+  "alg": "ed25519",
+  "fields": "document",
+  "signature": "dBFtyzhU+9a4Q8SUM+ObIjqDL7w6PWHo5H0F0u/2Cc0JW8TQxar6lmR3t68yGsiGncTf4e+EsHcPlDD2CpAHAQ==",
+  "keys": "https://brick.blue/.well-known/brick-blue-keys.json"
+ },
+ "proof": {
+  "state": "proven",
+  "digest": "e9ef5d3aa989e500d5ea7e6f10b1b7b39ba273d653d52960f4cb32c86d8229c7",
+  "pulseSeq": 29959,
+  "leafIndex": 0,
+  "size": 1,
+  "path": [],
+  "pulse": {
+   "document": {
+    "v": 1,
+    "type": "pulse",
+    "chain": "0d7a0591394795c4bba737e23f5cc6b63c311fcc741b5aa50e168ed8d33e109d",
+    "seq": 29959,
+    "prev": "e2423cae8d0bdc1c800dd9a725e2c17f23e1ddd0e350abf7a6555acd96927643",
+    "prevAt": "2026-10-10T23:23:05.756Z",
+    "at": "2026-10-10T23:24:05.762Z",
+    "radiusMs": 500,
+    "clock": {
+     "source": "none",
+     "rootDistanceMs": 0
+    },
+    "stepMs": null,
+    "entropy": "7c0acf2a95ec37bb3509438a2c66f67c4e2616e6081b3155395897d5218aa60f",
+    "root": "b20856bf0893394bec10c97c8867dce8b452279b58e910781c6c1d335310072f",
+    "count": 1
+   },
+   "digest": "e6187be864c9e5acaa50364a0faf668be6cad04a036820d7cd7412b129e05b07",
+   "code": "E6187BE8",
+   "keyId": "E84xNrn4yKd23dVAc9XpmUEX6qutjGDizompmYKtSPEY",
+   "signature": "W20i4Ix30vFxYlDmfc6h+C1PHqtZtUlM/xHX4VcaM0fGOSLHPQFUZMcVFyRPqJn+k03JoBLFJI0Ya+a4da4tAg=="
+  }
+ }
+}
