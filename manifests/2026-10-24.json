@@ -23,5 +23,37 @@
   "fields": "document",
   "signature": "0IfaH5lpDt9w+SMYK/u24xXYW5e0gnieT2cY7ktbI05V1wN/now3jLOoMT7GELjoOygovFvlqPTCYAPWrLI4Cg==",
   "keys": "https://brick.blue/.well-known/brick-blue-keys.json"
+ },
+ "proof": {
+  "state": "proven",
+  "digest": "265c3761b57997fdc4bc2caa2e32d89b2decfc7fdbddc5a8dbef2e40f33e79b5",
+  "pulseSeq": 48664,
+  "leafIndex": 0,
+  "size": 1,
+  "path": [],
+  "pulse": {
+   "document": {
+    "v": 1,
+    "type": "pulse",
+    "chain": "0d7a0591394795c4bba737e23f5cc6b63c311fcc741b5aa50e168ed8d33e109d",
+    "seq": 48664,
+    "prev": "ddd27fe611ee241aea2ff2f1c5d2b35cc513f925d0fb6badeddccaecbb81a17d",
+    "prevAt": "2026-10-24T00:18:55.087Z",
+    "at": "2026-10-24T00:19:55.092Z",
+    "radiusMs": 500,
+    "clock": {
+     "source": "none",
+     "rootDistanceMs": 0
+    },
+    "stepMs": null,
+    "entropy": "68a1bc2c86444cf0e1d3a345508d61e18d686b10449e87d1032fb5f6710b66d9",
+    "root": "cb0d627dd9111fff8a15c3f8af4c576432b4aacf0061ee7610cebe3d4bae7c29",
+    "count": 1
+   },
+   "digest": "8281d08064c34ecf4aa8c03e357ac6466f2dd908018e30cfbf31030fc74efd53",
+   "code": "8281D080",
+   "keyId": "E84xNrn4yKd23dVAc9XpmUEX6qutjGDizompmYKtSPEY",
+   "signature": "KXU8yvF8wb0Wt3OJdRXcB9Hhloi5AwnKRIL5eSTDn7Z/h7sfK1KoNlGPPl7bBBQE32FPAWo/iSNxgHWgVTYxCg=="
+  }
  }
 }
