@@ -1,0 +1,59 @@
+{
+ "v": 1,
+ "type": "brick.blue-export",
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T08:47:52.185Z",
+ "file": "2026-11-13.ndjson.gz",
+ "url": "https://brick.blue/api/v1/exports/2026-11-13.ndjson.gz",
+ "bytes": 83894564,
+ "sha256": "3d531022af2512dee069df7f47255da5b45e2302b0e35c46642d15be530ea5e4",
+ "counts": {
+  "agents": 35112,
+  "x402": 148202
+ },
+ "method": "agents: every listing not marked missing; x402: every paid resource not marked gone (a week without a 402), single-use payment links excluded. Count the lines by type to check the counts; hash the file to check the stamp.",
+ "stamp": {
+  "pulse": 74624,
+  "acceptedAt": "2026-11-13T08:49:08.929Z",
+  "proof": "https://brick.blue/api/v1/time/stamps/3d531022af2512dee069df7f47255da5b45e2302b0e35c46642d15be530ea5e4?pulse=74624"
+ },
+ "signed": {
+  "keyId": "E84xNrn4yKd23dVAc9XpmUEX6qutjGDizompmYKtSPEY",
+  "alg": "ed25519",
+  "fields": "document",
+  "signature": "BDd/CDVolVoecLpK7h8pSw4PKUgGy7T1dMRYIqhP5hUtkjjB4CkUNgil8xBrNORonduV2DCP1QTrFHHF5S5CAg==",
+  "keys": "https://brick.blue/.well-known/brick-blue-keys.json"
+ },
+ "proof": {
+  "state": "proven",
+  "digest": "3d531022af2512dee069df7f47255da5b45e2302b0e35c46642d15be530ea5e4",
+  "pulseSeq": 74624,
+  "leafIndex": 0,
+  "size": 1,
+  "path": [],
+  "pulse": {
+   "document": {
+    "v": 1,
+    "type": "pulse",
+    "chain": "0d7a0591394795c4bba737e23f5cc6b63c311fcc741b5aa50e168ed8d33e109d",
+    "seq": 74624,
+    "prev": "5658e80700f037a99b6412868e45fc47b3f60046db5073116f2ab48298df7d24",
+    "prevAt": "2026-11-13T08:48:52.093Z",
+    "at": "2026-11-13T08:49:52.091Z",
+    "radiusMs": 500,
+    "clock": {
+     "source": "none",
+     "rootDistanceMs": 0
+    },
+    "stepMs": null,
+    "entropy": "0a7cc18d20a89ca7d448d68f5f93e161f07d5b6050b4b90e8b3177bbd1cc7140",
+    "root": "e0f78425901ac290b882cb8300550a8c16f58d4d260fe5758c10393c7b1b5df5",
+    "count": 1
+   },
+   "digest": "94632039695f98741db648e07081aa9ff14c4887067aeafa52ad70478f97dc20",
+   "code": "94632039",
+   "keyId": "E84xNrn4yKd23dVAc9XpmUEX6qutjGDizompmYKtSPEY",
+   "signature": "VhHmnE4gGh4t8Bp0EZVdr6wxW5AEFSM975ADpUe0cW0oVE6VK6u2Cz53t1dUpfQLBM6lhbiSc3WJkODeozQkAQ=="
+  }
+ }
+}
