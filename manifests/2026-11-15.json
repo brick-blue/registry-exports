@@ -1,0 +1,27 @@
+{
+ "v": 1,
+ "type": "brick.blue-export",
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T00:10:12.872Z",
+ "file": "2026-11-15.ndjson.gz",
+ "url": "https://brick.blue/api/v1/exports/2026-11-15.ndjson.gz",
+ "bytes": 86742369,
+ "sha256": "946fb7eba9d1a71a5e395903b420d94c495f37e5d06843d656ac32e406219940",
+ "counts": {
+  "agents": 35803,
+  "x402": 137877
+ },
+ "method": "agents: every listing not marked missing; x402: every paid resource not marked gone (a week without a 402), single-use payment links excluded. Count the lines by type to check the counts; hash the file to check the stamp.",
+ "stamp": {
+  "pulse": 75859,
+  "acceptedAt": "2026-11-15T00:12:06.797Z",
+  "proof": "https://brick.blue/api/v1/time/stamps/946fb7eba9d1a71a5e395903b420d94c495f37e5d06843d656ac32e406219940?pulse=75859"
+ },
+ "signed": {
+  "keyId": "E84xNrn4yKd23dVAc9XpmUEX6qutjGDizompmYKtSPEY",
+  "alg": "ed25519",
+  "fields": "document",
+  "signature": "//qmh1tTzehDmriZlRAq+Ryve/rRxWc8xburzw3QI+UU4ubc7ZLmvW07hG8BQC/fjieDtcCXlpYITZG3HQLuBQ==",
+  "keys": "https://brick.blue/.well-known/brick-blue-keys.json"
+ }
+}
